@@ -60,9 +60,7 @@ static int wm8994_retune_mobile_base[] = {
 	WM8994_AIF2_EQ_GAINS_1,
 };
 
-#ifdef CONFIG_USE_ADC_DET
 static void wm8958_default_micdet(u16 status, void *data);
-#endif
 
 static const struct wm8958_micd_rate micdet_rates[] = {
 	{ 32768,       true,  1, 4 },

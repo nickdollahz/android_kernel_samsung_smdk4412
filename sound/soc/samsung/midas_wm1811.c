@@ -748,7 +748,6 @@ static void midas_micdet(void *data)
 
 	determine_jack_type(wm1811);
 }
-#endif
 
 static void midas_mic_id(void *data, u16 status)
 {
